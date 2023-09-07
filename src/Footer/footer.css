@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@600&family=Press+Start+2P&family=Sigmar&display=swap');
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.heading-footer{
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    opacity: 40%;
+}
+
+@media screen and (max-width:800px) {
+    .heading-footer{
+        display: flex;
+        justify-content: center;
+        font-size: .7rem;
+        
+    }
+    .footer{
+        padding-top: auto;
+    }
+    
+}
